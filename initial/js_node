@@ -1,0 +1,19 @@
+"use strict";
+
+const OPERATION_NAMES = ["conjunction", "disjunction", "implication", "exclusive", "equivalence"]
+
+function boolean(x, y, operation) {
+    // your code here
+    return 1 || 0;
+}
+
+var assert = require('assert');
+
+if (!global.is_checking) {
+    assert.equal(boolean(1, 0, "conjunction"), 0)
+    assert.equal(boolean(1, 0, "disjunction"), 1)
+    assert.equal(boolean(1, 1, "implication"), 1)
+    assert.equal(boolean(0, 1, "exclusive"), 1)
+    assert.equal(boolean(0, 1, "equivalence"), 0)
+    console.log("Coding complete? Click 'Check' to review your tests and earn cool rewards!");
+}
