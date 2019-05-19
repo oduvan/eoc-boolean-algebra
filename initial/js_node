@@ -1,6 +1,6 @@
 const OPERATION_NAMES = ["conjunction", "disjunction", "implication", "exclusive", "equivalence"]
 
-function boolean(x: number, y: number, operation: string) {
+export function boolean(x: number, y: number, operation: string) {
     // your code here
     return 1;
 }
